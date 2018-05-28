@@ -28,6 +28,8 @@ for i = [1:iteration]
 	theta = update
 endfor
 
+plot(jHistory);
+
 %test prediction
 predicted1 = sum([1 5.7 4.4 1.5 0.4]*theta) %expects val close to 1
 predicted2 = sum([1 5.8 2.7 4.1 1.0]*theta) %expects val close to 2
