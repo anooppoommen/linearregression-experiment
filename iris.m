@@ -27,3 +27,8 @@ for i = [1:iteration]
 	update = theta - learningRate * (1/m) *([ones(m,1),X]' * (H-Y)) 
 	theta = update
 endfor
+
+%test prediction
+predicted1 = sum([1 5.7 4.4 1.5 0.4]*theta) %expects val close to 1
+predicted2 = sum([1 5.8 2.7 4.1 1.0]*theta) %expects val close to 2
+predicted2 = sum([1 5.8 2.7 5.1 1.9]*theta) %expects val close to 3
