@@ -1,4 +1,4 @@
-# linearregression-experiment
+# linearregression-experiment😎
 an implementation of linear regression with multiple variables in octave
 
 # Overview
@@ -14,7 +14,7 @@ essentially it uses the iris data set [link to the original data set](https://ar
   
   3 => Iris-virginica
 
-# Note
+# Note 😅😎
  
  this is just an experiment even though the dataset is for a classification problem iwanted to see if a 
  linear regression can be used to identify the class
@@ -89,3 +89,6 @@ Summary Statistics:
     petal width: 0.1  2.5   1.20  0.76    0.9565  (high!)
 
 9. Class Distribution: 33.3% for each of 3 classes.
+
+
+<p align="center">😎</p>
