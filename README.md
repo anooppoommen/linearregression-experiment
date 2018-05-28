@@ -8,8 +8,10 @@ essentially it uses the iris data set [link to the original data set](https://ar
 
 ### class
 
-  1 => Iris-setosa
+  1 => Iris-setosa.
+  
   2 => Iris-versicolor
+  
   3 => Iris-virginica
 
 # Note
